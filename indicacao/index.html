@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>55 Mapas Mentais de Português</title>
+<script>
+(function () {
+    var url = new URL('../', location.href);
+    var params = new URLSearchParams(location.search);
+    var defaults = { utm_source: 'area-portugues', utm_medium: 'indicacao', utm_campaign: 'indicacao-area-portugues', utm_content: 'link-curto' };
+    Object.keys(defaults).forEach(function (key) { if (!params.get(key)) params.set(key, defaults[key]); });
+    url.search = params.toString();
+    url.hash = location.hash;
+    location.replace(url.href);
+})();
+</script>
+</head>
+<body><p><a href="../?utm_source=area-portugues&amp;utm_medium=indicacao&amp;utm_campaign=indicacao-area-portugues&amp;utm_content=link-curto">Aceder aos 55 Mapas Mentais de Português</a></p></body>
+</html>
