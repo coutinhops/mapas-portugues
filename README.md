@@ -7,6 +7,6 @@ Em Settings > Pages, usar Deploy from a branch, branch main e diretório / (root
 
 A pasta imagens contém as imagens originais e variantes WebP responsivas. Os checkouts Essencial e Completo são os links Mundpay já configurados.
 
-Os metadados canonical/OG e sitemap apontam para https://coutinhops.github.io/mapas-portugues/. Ao usar outro domínio, atualize essas referências. O caminho indicacao/ preserva os parâmetros de campanha antes de encaminhar para a página de vendas.
+Os metadados canonical/OG e sitemap apontam para https://mapamentaispt.site/. Ao usar outro domínio, atualize essas referências. O caminho indicacao/ preserva os parâmetros de campanha antes de encaminhar para a página de vendas.
 
 Consulte RELATORIO-PAGESPEED.md para as alterações e limites de verificação.
