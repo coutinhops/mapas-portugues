@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://coutinhops.github.io/mapas-portugues/sitemap.xml
+Sitemap: https://mapamentaispt.site/sitemap.xml
