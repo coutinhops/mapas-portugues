@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mapasportugues.vercel.app/sitemap.xml
+Sitemap: https://coutinhops.github.io/mapas-portugues/sitemap.xml
