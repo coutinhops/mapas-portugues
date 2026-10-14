@@ -1165,6 +1165,28 @@
     }
     .btn-primary:focus-visible, .btn-basic:focus-visible { outline-color: #047857; }
 
+
+    /* Mobile sizing: keep desktop rules unchanged from 768px onward. */
+    @media (max-width: 767px) {
+        .hero-layout > *, .pricing-columns > *, .area-grid > *,
+        .benefit-row > *, .pain-row > *, .features-list li > *,
+        .area-lista li > * { min-width: 0; }
+        h1, h2, h3, p, .btn, .badge, .area-chip,
+        .features-list li, .faq-question { overflow-wrap: anywhere; }
+        .btn { min-height: 44px; white-space: normal; line-height: 1.4; }
+        .btn-primary:hover { transform: none; }
+        .pricing-card .btn { display: block; width: 100%; padding: 0.875rem 1rem; }
+        .price-current { font-size: clamp(2.5rem, 10vw, 4rem); }
+        .area-chip { max-width: 100%; white-space: normal; text-align: center; }
+        .faq-question { gap: 0.75rem; }
+        .faq-question .arrow, .features-list .check { flex-shrink: 0; }
+        .mobile-cta { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+        .mobile-cta-price { min-width: 0; }
+        .mobile-cta .btn { width: 100%; max-width: none; min-height: 44px; padding: 10px 8px; }
+        #lightbox { max-width: calc(100vw - 24px); padding: 54px 12px 12px; }
+        #lightbox-img { max-width: 100%; max-height: calc(95dvh - 66px); }
+    }
+
 </style>
 <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD4SVX1629"></script>
@@ -1186,7 +1208,7 @@
         })(window, document, "clarity", "script", "yfnvx75fo3");
     </script>
     <!-- End Microsoft Clarity -->
-<meta name="description" content="55 Mapas Mentais de Português Europeu em PDF. Reveja gramática, verbos e sintaxe. Pacote Completo por €14,90. Aceda já!"><link rel="canonical" href="https://mapasportugues.vercel.app/"><meta property="og:title" content="Mapas Mentais de Português — Gramática, Verbos e Sintaxe (PDF) | 55 Mapas"><meta property="og:description" content="55 Mapas Mentais de Português Europeu em PDF. Reveja gramática, verbos e sintaxe. Pacote Completo por €14,90. Aceda já!"><meta property="og:type" content="product"><meta property="og:locale" content="pt_PT"><meta property="og:url" content="https://mapasportugues.vercel.app/"><meta property="og:image" content="https://mapasportugues.vercel.app/imagens/mockup-55-mapas.jpg"><meta property="og:image:width" content="900"><meta property="og:image:height" content="1123"><meta property="og:image:alt" content="55 Mapas Mentais de Língua Portuguesa e materiais complementares"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"></noscript><link rel="preload" as="image" type="image/webp" href="imagens/mockup-55-mapas.webp" imagesrcset="imagens/mockup-55-mapas-480.webp 480w, imagens/mockup-55-mapas-720.webp 720w, imagens/mockup-55-mapas.webp 900w" imagesizes="(min-width: 1200px) 550px, (min-width: 768px) 45vw, calc(100vw - 32px)" fetchpriority="high"><script type="application/ld+json">{
+<meta name="description" content="55 Mapas Mentais de Português Europeu em PDF. Reveja gramática, verbos e sintaxe. Pacote Completo por €9,90. Aceda já!"><link rel="canonical" href="https://mapasportugues.vercel.app/"><meta property="og:title" content="Mapas Mentais de Português — Gramática, Verbos e Sintaxe (PDF) | 55 Mapas"><meta property="og:description" content="55 Mapas Mentais de Português Europeu em PDF. Reveja gramática, verbos e sintaxe. Pacote Completo por €9,90. Aceda já!"><meta property="og:type" content="product"><meta property="og:locale" content="pt_PT"><meta property="og:url" content="https://mapasportugues.vercel.app/"><meta property="og:image" content="https://mapasportugues.vercel.app/imagens/mockup-55-mapas.jpg"><meta property="og:image:width" content="900"><meta property="og:image:height" content="1123"><meta property="og:image:alt" content="55 Mapas Mentais de Língua Portuguesa e materiais complementares"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"></noscript><link rel="preload" as="image" type="image/webp" href="imagens/mockup-55-mapas.webp" imagesrcset="imagens/mockup-55-mapas-480.webp 480w, imagens/mockup-55-mapas-720.webp 720w, imagens/mockup-55-mapas.webp 900w" imagesizes="(min-width: 1200px) 550px, (min-width: 768px) 45vw, calc(100vw - 32px)" fetchpriority="high"><script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -1201,7 +1223,7 @@
       "offers": {
         "@type": "Offer",
         "url": "https://pay.mycheckoutt.com/01a12e3e-147c-710b-a6cf-d7b4fcd975e5?ref=",
-        "price": "14.90",
+        "price": "9.90",
         "priceCurrency": "EUR",
         "availability": "https://schema.org/InStock"
       }
@@ -1583,10 +1605,10 @@
                     <p class="plan-tagline">55 Mapas Mentais + materiais complementares</p>
                     <img src="imagens/mockup-55-mapas.webp" alt="55 Mapas Mentais de Língua Portuguesa, Pacote Completo" class="plan-img" loading="lazy" width="900" height="1123" decoding="async" srcset="imagens/mockup-55-mapas-480.webp 480w, imagens/mockup-55-mapas-720.webp 720w, imagens/mockup-55-mapas.webp 900w" sizes="(min-width: 1200px) 550px, (min-width: 768px) 45vw, calc(100vw - 32px)">
                     <div class="price-section">
-                        <p class="price-anchor">TUDO ISTO POR MENOS DE €15</p>
+                        <p class="price-anchor">TUDO ISTO POR MENOS DE €10</p>
                         <p class="price-original">de €74,90 por:</p>
-                        <p class="price-current premium-price">€14,90</p>
-                        <div class="discount-badge">Poupe €60,00 (Desconto + Todos os Bónus)</div>
+                        <p class="price-current premium-price">€9,90</p>
+                        <div class="discount-badge">Poupe €65,00 (Desconto + Todos os Bónus)</div>
                     </div>
 
                     <ul class="features-list premium-features">
@@ -1598,7 +1620,7 @@
                         <li><span class="check">✓</span> Garantia incondicional de 7 dias</li>
                     </ul>
 
-                    <a href="https://pay.mycheckoutt.com/01a12e3e-147c-710b-a6cf-d7b4fcd975e5?ref=" class="btn btn-primary pulse" data-checkout="complete">QUERO O PACOTE COMPLETO POR €14,90</a>
+                    <a href="https://pay.mycheckoutt.com/01a12e3e-147c-710b-a6cf-d7b4fcd975e5?ref=" class="btn btn-primary pulse" data-checkout="complete">QUERO O PACOTE COMPLETO POR €9,90</a>
                     <p class="pay-note">Pagamento único · Inclui acesso imediato</p>
                 </div>
             </div>
@@ -1727,7 +1749,7 @@
     <!-- INFINITE PURCHASES POP-UP (BOTTOM LEFT) -->
     <!-- UPGRADE MODAL -->
     <!-- LIGHTBOX MODAL -->
-    <dialog id="lightbox" aria-label="Pré-visualização do mapa mental"><form method="dialog"><button type="submit" class="lightbox-close" aria-label="Fechar pré-visualização">Fechar</button></form><img id="lightbox-img" src="imagens/pagina-03-silaba-tonica.webp" width="636" height="900" loading="lazy" decoding="async" alt="Pré-visualização de um mapa mental"></dialog><aside id="mobile-cta" class="mobile-cta" aria-label="Comprar o Pacote Completo" hidden=""><div class="mobile-cta-price"><span>Pacote Completo</span><del>€74,90</del><strong>€14,90</strong></div><a href="https://pay.mycheckoutt.com/01a12e3e-147c-710b-a6cf-d7b4fcd975e5?ref=" class="btn btn-primary" data-checkout="complete">QUERO O COMPLETO</a></aside><script>
+    <dialog id="lightbox" aria-label="Pré-visualização do mapa mental"><form method="dialog"><button type="submit" class="lightbox-close" aria-label="Fechar pré-visualização">Fechar</button></form><img id="lightbox-img" src="imagens/pagina-03-silaba-tonica.webp" width="636" height="900" loading="lazy" decoding="async" alt="Pré-visualização de um mapa mental"></dialog><aside id="mobile-cta" class="mobile-cta" aria-label="Comprar o Pacote Completo" hidden=""><div class="mobile-cta-price"><span>Pacote Completo</span><del>€74,90</del><strong>€9,90</strong></div><a href="https://pay.mycheckoutt.com/01a12e3e-147c-710b-a6cf-d7b4fcd975e5?ref=" class="btn btn-primary" data-checkout="complete">QUERO O COMPLETO</a></aside><script>
     (() => {
       document.getElementById('current-year').textContent = new Date().getFullYear();
       // Native name grouping plus fallback for older browsers.
@@ -1756,7 +1778,7 @@
       document.querySelectorAll('[data-checkout]').forEach(link => link.addEventListener('click', () => {
         if (typeof window.fbq === 'function') window.fbq('track', 'InitiateCheckout', {
           content_name: link.dataset.checkout === 'essential' ? 'Pacote Essencial' : 'Pacote Completo',
-          content_category: 'checkout', value: link.dataset.checkout === 'essential' ? 7.90 : 14.90,
+          content_category: 'checkout', value: link.dataset.checkout === 'essential' ? 7.90 : 9.90,
           currency: 'EUR', num_items: 1
         });
       }));
